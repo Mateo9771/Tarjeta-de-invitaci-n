@@ -1,0 +1,79 @@
+.FrontPageContainer{
+    background-image: linear-gradient(to right, rgba(105, 96, 96, 0.699) , rgba(143, 133, 133, 0.71)), url(../../assets/casorio.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .FrontPageCenter{
+        background-image: url(../../assets/decoration.svg);
+        background-position:21rem  ;
+        background-size: calc(50rem);
+        background-repeat: no-repeat;
+        width: 100%;
+        height:30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+        z-index: 1;
+    }
+    .ContainerDate{
+        height: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        background-image: url(../../assets/decorationdate.svg);
+        background-position: 5.2rem 1.6rem;
+        background-size: calc(10rem);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 12rem;
+        color: white;
+    }
+    .corner {
+        position: absolute;
+        width: 100px;
+        height: 100px; 
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .top-left {
+        background-image: url('../../assets/topleft.svg');
+        top: 0;
+        left: 0;
+      }
+      
+      .top-right {
+        background-image: url('../../assets/toprigth.svg');
+        top: 0;
+        right: 0;
+      }
+      
+      .bottom-left {
+        background-image: url('../../assets/bottomleft.svg');
+        bottom: -2rem;
+        left: 0;
+      }
+      
+      .bottom-right {
+        background-image: url('../../assets/bottomRigth.svg');
+        bottom: -2rem;
+        right: 0;
+      }
+            
+}
+
+@media only screen and (max-width: 575px){
+    .FrontPageCenter{
+        background-position: -11rem  !important;
+    }
+}

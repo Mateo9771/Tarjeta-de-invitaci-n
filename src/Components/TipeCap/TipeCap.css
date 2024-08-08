@@ -1,0 +1,26 @@
+.TipeCapContainer{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 221, 236);
+    .TimeDecoration{
+        position: absolute;
+        width: 35rem;
+        height: 30rem;
+        background-image: url(../../assets/timedecoration.svg);
+        background-repeat: no-repeat;
+        background-size: calc(35rem);
+        background-position: 0rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 575px){
+   .TimeDecoration{
+    width: 20rem !important;
+    height: 20rem !important;
+    background-repeat: no-repeat;
+    background-size: calc(25rem) !important;
+    background-position: -2.5rem 2rem !important;
+   }
+}
