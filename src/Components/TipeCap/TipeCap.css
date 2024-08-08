@@ -17,10 +17,10 @@
 
 @media only screen and (max-width: 575px){
    .TimeDecoration{
-    width: 20rem !important;
+    width: 15rem !important;
     height: 20rem !important;
     background-repeat: no-repeat;
-    background-size: calc(25rem) !important;
+    background-size: calc(20rem) !important;
     background-position: -2.5rem 2rem !important;
    }
 }
