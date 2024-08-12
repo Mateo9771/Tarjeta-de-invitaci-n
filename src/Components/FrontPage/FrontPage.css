@@ -36,7 +36,7 @@
         background-size: calc(10rem);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 10rem;
+        bottom: 35rem;
         color: white;
     }
     .corner {
@@ -77,6 +77,9 @@
   .corner{
     width: 10rem !important;
     height: 10rem !important;
+  }
+  .FrontPageContainer{
+    height: 90vh;
   }
     .FrontPageCenter{
         width: 25rem !important;

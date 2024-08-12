@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: rgb(184, 150, 194);
+    background-color: rgb(223, 212, 226);
     .alianzas{
         background-color: aliceblue;
         position: absolute;
@@ -20,7 +20,7 @@
    .alianzas{
     width: 10rem !important;
     height: 9rem !important;
-    margin-top: 3rem;
+    margin-top: 10rem;
     border-radius: 50%;
     position: absolute !important;
     background-color: rgb(134, 51, 119) !important;
