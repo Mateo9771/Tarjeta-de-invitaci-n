@@ -3,24 +3,29 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: rgb(233, 221, 236);
-    .TimeDecoration{
+    background-color: rgb(184, 150, 194);
+    .alianzas{
+        background-color: aliceblue;
         position: absolute;
         width: 35rem;
         height: 30rem;
         background-image: url(../../assets/timedecoration.svg);
         background-repeat: no-repeat;
-        background-size: calc(35rem);
+        background-size: calc(30rem);
         background-position: 0rem 4rem;
     }
 }
 
 @media only screen and (max-width: 575px){
-   .TimeDecoration{
-    width: 15rem !important;
-    height: 20rem !important;
+   .alianzas{
+    width: 10rem !important;
+    height: 9rem !important;
+    margin-top: 3rem;
+    border-radius: 50%;
+    position: absolute !important;
+    background-color: rgb(134, 51, 119) !important;
     background-repeat: no-repeat;
     background-size: calc(20rem) !important;
-    background-position: -2.5rem 2rem !important;
+    background-position: -5rem -2rem !important;
    }
 }

@@ -4,6 +4,7 @@ import ScrollIndicator from '../ScrollIndicador/ScrollIndicador'
 
 const FrontPage = () => {
   return (
+    <div>
     <div className="FrontPageContainer">
         <div className="corner top-left"></div>
       <div className="corner top-right"></div>
@@ -18,6 +19,8 @@ const FrontPage = () => {
         15/02/2025
        </div>
        <ScrollIndicator className="Indicator"/>
+       
+    </div>
     </div>
   )
 }

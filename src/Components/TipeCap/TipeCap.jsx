@@ -8,7 +8,7 @@ const TipeCap = () => {
   return (
     <div className='TipeCapContainer'>
         <CountDownTimer targetDate={targetDate} />
-        <div className="TimeDecoration">
+        <div className="alianzas">
 
         </div>
     </div>

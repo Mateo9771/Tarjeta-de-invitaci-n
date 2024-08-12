@@ -1,5 +1,5 @@
 .FrontPageContainer{
-    background-image: linear-gradient(to right, rgba(105, 96, 96, 0.699) , rgba(143, 133, 133, 0.71)), url(../../assets/casorio.webp);
+    background-image: linear-gradient(to right, rgba(78, 49, 85, 0.699) , rgba(143, 133, 133, 0.71)), url(../../assets/casorio.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,8 +12,8 @@
     position: relative;
     .FrontPageCenter{
         background-image: url(../../assets/decoration.svg);
-        background-position:21rem  ;
-        background-size: calc(50rem);
+        background-position:29rem  ;
+        background-size: calc(27rem);
         background-repeat: no-repeat;
         width: 100%;
         height:30rem;
@@ -26,23 +26,23 @@
         z-index: 1;
     }
     .ContainerDate{
-        height: 9rem;
+        height:10rem;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 20rem;
         background-image: url(../../assets/decorationdate.svg);
-        background-position: 5.2rem 1.6rem;
+        background-position: 5.2rem 3rem;
         background-size: calc(10rem);
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 12rem;
+        bottom: 10rem;
         color: white;
     }
     .corner {
         position: absolute;
-        width: 100px;
-        height: 100px; 
+        width: 15rem;
+        height: 15rem; 
         background-repeat: no-repeat;
         background-size: contain;
       }
@@ -60,21 +60,26 @@
       
       .bottom-left {
         background-image: url('../../assets/bottomleft.svg');
-        bottom: -2rem;
+        bottom: -6.7rem;
         left: 0;
       }
       
       .bottom-right {
         background-image: url('../../assets/bottomRigth.svg');
-        bottom: -2rem;
+        bottom: -6.7rem;
         right: 0;
       }
             
 }
 
+
 @media only screen and (max-width: 575px){
+  .corner{
+    width: 10rem !important;
+    height: 10rem !important;
+  }
     .FrontPageCenter{
-        width: 19rem !important;
-        background-position: -12rem  !important;
+        width: 25rem !important;
+        background-position: -2rem  !important;
     }
 }
