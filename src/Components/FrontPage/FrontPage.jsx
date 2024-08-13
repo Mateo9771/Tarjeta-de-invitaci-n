@@ -14,9 +14,9 @@ const FrontPage = () => {
        <div className='ContainerDate'>
         15/02/2025
        </div>
-       <h2>Pablo</h2> 
+       <h2>Nicolas</h2> 
        <h3>&</h3> 
-       <h2>Lucas</h2>
+       <h2>Melanie</h2>
        </div>
        
        <ScrollIndicator className="Indicator"/>

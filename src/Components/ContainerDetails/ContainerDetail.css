@@ -1,0 +1,38 @@
+.ContainerDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dfd4e2;
+    gap: 2rem;
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c7b4cc;
+        height: 2.5rem;
+        width: 9rem;
+        border-radius: 10px;
+        border: 0px;
+        box-shadow: 2px 2px 5px #9a7ca1;
+    }
+    button:hover{
+        background-color: #b096b6;
+    }
+    .CeremoniaDetail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        .Detail{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}

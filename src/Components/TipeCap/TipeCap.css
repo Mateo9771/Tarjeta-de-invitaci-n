@@ -1,18 +1,28 @@
 .TipeCapContainer{
-    
-    height: 100vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     background-color: rgb(223, 212, 226);
-    .alianzas{
-        background-color: aliceblue;
-        position: absolute;
+    .DecorationAlianza{
+        background-image: url(../../assets//alianzadecoration.svg);
         width: 35rem;
         height: 30rem;
+        background-repeat: no-repeat;
+        background-position: 8rem -1rem;
+        background-size: calc(20rem);
+    }
+    .alianzas{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
         background-image: url(../../assets/timedecoration.svg);
         background-repeat: no-repeat;
-        background-size: calc(30rem);
-        background-position: 0rem 4rem;
+        backdrop-filter: blur(5px);
+        background-size: calc(15rem);
+        border-radius: 50%;
+        background-position: -2rem 1rem;
+        box-shadow: 2px 5px 5px black;
+        margin-top: 1rem;
     }
 }
 
@@ -20,12 +30,20 @@
    .alianzas{
     width: 10rem !important;
     height: 9rem !important;
-    margin-top: 10rem;
+    margin-top: 2rem;
     border-radius: 50%;
     position: absolute !important;
-    background-color: rgb(134, 51, 119) !important;
+    backdrop-filter: blur(10px) !important;
     background-repeat: no-repeat;
+    box-shadow: 2px 5px 5px black;
     background-size: calc(20rem) !important;
     background-position: -5rem -2rem !important;
+   }
+   .DecorationAlianza{
+        width: 35rem !important;
+        height: 30rem !important;
+        background-repeat: no-repeat;
+        background-position: 2rem 1rem !important;
+        background-size: calc(20rem) !important;
    }
 }
