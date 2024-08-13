@@ -5,7 +5,7 @@ import ScrollIndicator from '../ScrollIndicador/ScrollIndicador'
 const FrontPage = () => {
   return (
     <div>
-    <div className="FrontPageContainer">
+    <div className="FrontPageContainer" id='Inicio'>
         <div className="corner top-left"></div>
       <div className="corner top-right"></div>
       <div className="corner bottom-left"></div>

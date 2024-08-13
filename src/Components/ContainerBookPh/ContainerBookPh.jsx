@@ -12,7 +12,7 @@ const ContainerBookPh = () => {
     const images = [casorio1, casorio2, casorio3, casorio4, casorio5];
     
   return (
-    <div className='ContainerBook col-12'>
+    <div className='ContainerBook col-12' id='Fotografias'>
          <div className='image-gallery col-9'>
                 {images.map((src, index) => (
                     <div className='image-frame' key={index}>

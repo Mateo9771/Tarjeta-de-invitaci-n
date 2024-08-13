@@ -5,7 +5,7 @@ const ContainerDetails = () => {
 
   return (
     <div className='ContainerDetails col-12'>
-        <div className='CeremoniaDetail col-9'>
+        <div className='CeremoniaDetail col-9' id='Ceremonia'>
             <h1>Ceremonia</h1>
         <div className='Detail'>
             <h1>Dia</h1>
@@ -23,7 +23,7 @@ const ContainerDetails = () => {
             <button>Como llegar</button>
         </div>
         </div>
-        <div className='CeremoniaDetail col-9'>
+        <div className='CeremoniaDetail col-9' id='Fiesta'>
         <h1>Fiesta</h1>
         <div className='Detail'>
             <h1>Dia</h1>
