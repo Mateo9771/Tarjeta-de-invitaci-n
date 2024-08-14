@@ -86,3 +86,9 @@
         background-position: -2rem  !important;
     }
 }
+@media only screen and (min-width: 1024px){
+  .FrontPageCenter{
+    background-position: 46rem !important;
+    background-size: calc(27rem) !important;
+  }
+}
