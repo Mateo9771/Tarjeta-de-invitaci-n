@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .FrontPageContainer{
     background-image: linear-gradient(to right, rgba(78, 49, 85, 0.699) , rgba(143, 133, 133, 0.71)), url(../../assets/Novios/img5.webp);
     background-attachment: fixed;
@@ -31,6 +33,8 @@
       text-align: center;
       color: white;
       position: absolute;
+      font-family: "Great Vibes", cursive;
+      font-style: normal;
     }
    
     .ContainerDate{
@@ -99,7 +103,7 @@
         background-position: -2rem  !important;
     }
     .ContainerNames{
-      top: 20rem !important;
+      top: 21rem !important;
     }
 }
 @media only screen and (min-width: 1024px){
