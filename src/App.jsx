@@ -5,6 +5,7 @@ import FrontPage from './Components/FrontPage/FrontPage'
 import TipeCap from './Components/TipeCap/TipeCap'
 import Footer from './Components/Footer/Footer'
 
+
 function App() {
 
 

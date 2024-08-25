@@ -10,10 +10,15 @@ const FrontPage = () => {
       <div className="corner top-right"></div>
       <div className="corner bottom-left"></div>
       <div className="corner bottom-right"></div>
+      
        <div className='FrontPageCenter'>
+       
+       
+       </div>
        <div className='ContainerDate'>
         15/02/2025
        </div>
+       <div className='ContainerNames'>
        <h2>Nicolas</h2> 
        <h3>&</h3> 
        <h2>Melanie</h2>

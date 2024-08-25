@@ -5,6 +5,7 @@ const ContainerDetails = () => {
 
   return (
     <div className='ContainerDetails col-12'>
+        
         <div className='CeremoniaDetail col-9' id='Ceremonia'>
             <h1>Ceremonia</h1>
         <div className='Detail'>

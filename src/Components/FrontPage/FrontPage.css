@@ -1,5 +1,5 @@
 .FrontPageContainer{
-    background-image: linear-gradient(to right, rgba(78, 49, 85, 0.699) , rgba(143, 133, 133, 0.71)), url(../../assets/casorio.webp);
+    background-image: linear-gradient(to right, rgba(78, 49, 85, 0.699) , rgba(143, 133, 133, 0.71)), url(../../assets/Novios/img5.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     position: relative;
     .FrontPageCenter{
         background-image: url(../../assets/decoration.svg);
-        background-position:29rem  ;
+        background-position:40rem  ;
         background-size: calc(27rem);
         background-repeat: no-repeat;
         width: 100%;
@@ -20,12 +20,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
         text-align: center;
         flex-direction: column;
-        z-index: 1;
+        position: relative;
+        z-index: 0;
+        filter: brightness(0.5);
     }
+    .ContainerNames{
+      top: 15rem;
+      text-align: center;
+      color: white;
+      position: absolute;
+    }
+   
     .ContainerDate{
+        top:0;
         height:10rem;
         display: flex;
         justify-content: center;
@@ -36,15 +45,19 @@
         background-size: calc(10rem);
         background-repeat: no-repeat;
         position: absolute;
+        z-index: 1;
         bottom: 35rem;
         color: white;
     }
+    
     .corner {
         position: absolute;
         width: 15rem;
         height: 15rem; 
         background-repeat: no-repeat;
         background-size: contain;
+        filter: brightness(0.5);
+        z-index: 0;
       }
       .top-left {
         background-image: url('../../assets/topleft.svg');
@@ -85,10 +98,13 @@
         width: 25rem !important;
         background-position: -2rem  !important;
     }
+    .ContainerNames{
+      top: 20rem !important;
+    }
 }
 @media only screen and (min-width: 1024px){
   .FrontPageCenter{
-    background-position: 46rem !important;
+    background-position: 29rem !important;
     background-size: calc(27rem) !important;
   }
 }

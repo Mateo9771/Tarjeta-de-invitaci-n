@@ -1,15 +1,17 @@
 .TipeCapContainer{
-    height: 30vh;
     display: flex;
     justify-content: center;
-    background-color: rgb(223, 212, 226);
-    .DecorationAlianza{
+    background-color: #dfd4e2;
+    flex-wrap: wrap;
+        .DecorationAlianza{
         background-image: url(../../assets//alianzadecoration.svg);
         width: 35rem;
-        height: 30rem;
+        z-index: 1;
+        height: 20rem;
         background-repeat: no-repeat;
-        background-position: 8rem 0.5rem;
+        background-position: 8rem 6rem;
         background-size: calc(20rem);
+        position: relative;
     }
     .alianzas{
         position: absolute;
@@ -22,7 +24,7 @@
         border-radius: 50%;
         background-position: -2rem -0.5rem;
         box-shadow: 2px 5px 5px black;
-        margin-top: 1rem;
+        margin-top: 9rem;
     }
 }
 
@@ -30,7 +32,7 @@
    .alianzas{
     width: 10rem !important;
     height: 9rem !important;
-    margin-top: 3rem !important;
+    margin-top: 6rem !important;
     border-radius: 50%;
     position: absolute !important;
     backdrop-filter: blur(1px) !important;
@@ -39,9 +41,36 @@
    }
    .DecorationAlianza{
         width: 35rem !important;
-        height: 30rem !important;
+        height: 15rem !important;
         background-repeat: no-repeat;
-        background-position: 3rem 3rem !important;
+        background-position: 3rem 4rem !important;
         background-size: calc(20rem) !important;
    }
+
+   .custom-shape-divider-top-1724515908 svg{
+    width: calc(100% + 1.3px) !important;
+    height: 100px !important;
+    transform: rotateY(180deg);
+   }
+}
+
+.custom-shape-divider-top-1724515908 {
+    position: relative;
+    z-index: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1724515908 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 135px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1724515908 .shape-fill {
+    fill: #9d85a5;
 }

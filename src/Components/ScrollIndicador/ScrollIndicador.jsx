@@ -7,7 +7,7 @@ const ScrollIndicator = () => {
   return (
     <div className="ScrollIndicator">
       <div className="Arrow Bounce">
-      <Link to='Information' smooth={true} duration={500}><VscGitFetch size='24px' color='#fff'/></Link>
+      <Link to='Ceremonia' smooth={true} duration={500}><VscGitFetch size='24px' color='#fff'/></Link>
       </div>
     </div>
   )
