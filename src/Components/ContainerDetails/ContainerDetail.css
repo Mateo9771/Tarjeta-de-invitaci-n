@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
 .ContainerDetails{
     display: flex;
     justify-content: center;
@@ -6,6 +8,9 @@
     text-align: center;
     background-color: #dfd4e2;
     gap: 2rem;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     button{
         display: flex;
         justify-content: center;
@@ -19,6 +24,9 @@
     }
     button:hover{
         background-color: #b096b6;
+        font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     }
     .CeremoniaDetail{
         display: flex;
@@ -36,5 +44,27 @@
             gap: 1rem;
         }
     }
+}
+.custom-shape-divider-top-1724515908 {
+    position: sticky;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0;
+}
+
+.custom-shape-divider-top-1724515908 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 135px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1724515908 .shape-fill {
+    fill: #9d85a5;
 }
 

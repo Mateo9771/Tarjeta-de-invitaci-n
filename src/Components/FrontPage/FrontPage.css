@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Londrina+Sketch&display=swap');
+
+.FrontPageContainer {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .FrontPageContainer{
     background-image: linear-gradient(to right, rgba(78, 49, 85, 0.699) , rgba(143, 133, 133, 0.71)), url(../../assets/Novios/img5.webp);
@@ -34,7 +41,8 @@
       color: white;
       position: absolute;
       font-family: "Great Vibes", cursive;
-      font-style: normal;
+  font-weight: 400;
+  font-style: normal;    
     }
    
     .ContainerDate{
@@ -77,13 +85,13 @@
       
       .bottom-left {
         background-image: url('../../assets/bottomleft.svg');
-        bottom: -6.7rem;
+        bottom: -4rem;
         left: 0;
       }
       
       .bottom-right {
         background-image: url('../../assets/bottomRigth.svg');
-        bottom: -6.7rem;
+        bottom: -4rem;
         right: 0;
       }
             
@@ -94,9 +102,6 @@
   .corner{
     width: 10rem !important;
     height: 10rem !important;
-  }
-  .FrontPageContainer{
-    height: 90vh;
   }
     /*.FrontPageCenter{
         width: 25rem !important;
