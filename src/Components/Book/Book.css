@@ -1,0 +1,42 @@
+.book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imgLeft, .imgRight {
+    margin: 10px 0;
+  }
+  @keyframes rollInLeft {
+    0% {
+      transform: translateX(-100%) rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rollInRight {
+    0% {
+      transform: translateX(100%) rotate(360deg);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
+  .image-container {
+    opacity: 0;
+  }
+  
+  .imgLeft.roll {
+    animation: rollInLeft 3s linear forwards;
+  }
+  
+  .imgRight.roll {
+    animation: rollInRight 3s linear forwards;
+  }

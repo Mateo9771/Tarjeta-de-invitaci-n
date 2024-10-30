@@ -18,40 +18,49 @@ const ContainerDetails = () => {
 
     <Book/>
         
-        <div className='CeremoniaDetail col-9' id='Ceremonia'>
+        <div className='CeremoniaDetail col-12' id='Ceremonia'>
             <h1>Ceremonia</h1>
         <div className='Detail'>
-            <h1>Dia</h1>
-            <p>Sabado 15 de Febrero - 20H</p>
-            <button>Agendar</button>
+            <h1>Dia:</h1>
+            <h2>Sabado 15 de Febrero - 20H</h2>
+
         </div>
+
         <div className='Detail'>
-            <h1>Lugar</h1>
-            <p>Salon Escobar</p>
-            <button>Confirmar Asistencia</button>
+        <h1>Dirección:</h1>
+        <h2>Calle Falsa 123</h2>
         </div>
-        <div className='Detail'>
-            <h1>Dirección</h1>
-            <p>Calle Falsa 123</p>
-            <button>Como llegar</button>
+
+        <div className='Buttons'>
+            <div className='Button1'>
+        <button>Confirmar Asistencia</button>
+            </div>
+            <div className='Button2'>
+        <button>Como llegar</button>
+        <button>Agendar</button>
         </div>
         </div>
-        <div className='CeremoniaDetail col-9' id='Fiesta'>
+        </div>
+
+        <div className='CeremoniaDetail col-12' id='Fiesta'>
         <h1>Fiesta</h1>
         <div className='Detail'>
-            <h1>Dia</h1>
-            <p>Sabado 15 de Febrero - 21H</p>
-            <button>Agendar</button>
+            <h1>Dia:</h1>
+            <h2>Sabado 15 de Febrero - 21H</h2>
+           
         </div>
         <div className='Detail'>
-            <h1>Lugar</h1>
-            <p>Salon La Plata</p>
-            <button>Confirmar Asistencia</button>
+        <h1>Dirección:</h1>
+        <h2>Calle Falsa 123</h2>
         </div>
-        <div className='Detail'>
-            <h1>Dirección</h1>
-            <p>Calle Falsa 123</p>
-            <button>Como llegar</button>
+        <div className='Buttons'>
+        <div className='Button1'>
+        <button>Confirmar Asistencia</button>
+            </div>
+            <div className='Button2'>
+        <button>Como llegar</button>
+        <button>Agendar</button>
+        </div>
         </div>
         </div>
     </div>

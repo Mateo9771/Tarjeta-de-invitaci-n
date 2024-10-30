@@ -16,12 +16,12 @@ const FrontPage = () => {
        
        </div>
        <div className='ContainerDate'>
-        15/02/2025
+        <h2>22/03/2025</h2>
        </div>
        <div className='ContainerNames'>
-       <h2>Nicolas</h2> 
-       <h3>&</h3> 
-       <h2>Melanie</h2>
+       <h2><span className='Init'>N</span>icolas</h2> 
+       <h1>&</h1> 
+       <h2><span className='Init'>M</span>elanie</h2>
        </div>
        
        <ScrollIndicator className="Indicator"/>

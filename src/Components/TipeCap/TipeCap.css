@@ -6,9 +6,9 @@
     flex-wrap: wrap;
         .DecorationAlianza{
         background-image: url(../../assets//alianzadecoration.svg);
-        width: 35rem;
+        width: 5rem;
         z-index: 1;
-        height: 20rem;
+        height: 10rem;
         background-repeat: no-repeat;
         background-position: 34rem 4rem;
         background-size: calc(20rem);
@@ -45,7 +45,7 @@
         width: 35rem !important;
         height: 15rem !important;
         background-repeat: no-repeat;
-        background-position: 3rem 4rem !important;
+        background-position: -1rem 4rem !important;
         background-size: calc(20rem) !important;
    }
 
