@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Londrina+Sketch&family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=La+Belle+Aurore&family=Londrina+Sketch&family=Monsieur+La+Doulaise&display=swap');
 
-.ContainerDetails{
+.containerDetails{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: #dfd4e2;
     gap: 2rem;
-    font-family: "Monsieur La Doulaise", cursive;
-    font-style: normal;
-    .Buttons{
+    .buttons{
         display: flex;
         gap: 1rem;
         flex-direction: column;
-        .Button1{
+        .button1{
             button{
                 width: 18rem;
             }
         }
-        .Button2{
+        .button2{
             display: flex;
             gap: 0.5rem;
         }
@@ -27,21 +24,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #c7b4cc;
+            background-color: #a5b2ff;
             height: 2.5rem;
             width: 9rem;
             border-radius: 10px;
             border: 0px;
-            box-shadow: 2px 2px 5px #9a7ca1;
+            box-shadow: 2px 2px 5px #878196;
         }
         button:hover{
-            background-color: #b096b6;
+            background-color: #8899e4;
         }
     }
    
-    .CeremoniaDetail{
+    .ceremoniaDetail{
+        width: 100vh;
         border-radius: 1rem;
-        box-shadow: 3px 5px 7px rgb(167, 121, 151);
+        box-shadow: 3px 5px 7px #878196;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,8 +48,11 @@
         gap: 2rem;
         margin-bottom: 2rem;
         padding: 2rem;
-        background-color: #bea9c5;
-        .Detail{
+        color: #1b3291;
+        font-family: "Italianno", cursive;
+        font-style: normal;
+        backdrop-filter: blur(1px);
+        .detail{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -59,54 +60,20 @@
         }
     }
 }
-.custom-shape-divider-top-1724515908 {
-    position: sticky;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: 0;
-}
 
-.custom-shape-divider-top-1724515908 svg {
-    position: relative;
-    display: block;
-    width: calc(113% + 1.3px);
-    height: 135px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1724515908 .shape-fill {
-    fill: #9d85a5;
-}
-
-@media only screen and (max-width: 575px){
-    .ContainerDetails{
-        font-size: 15px !important;
-        .Detail{
-            display: flex;
-            flex-direction: column;
-        }
-        h1{
-            font-size: 2rem;
-        }
-        h2{
-            font-size: 1.5rem;
-        }
-        .Button1{
-            display: flex;
-            justify-content: center;
-            button{
-                width: 10rem !important;
-            }
-        }
-        .Button2{
-            display: flex;
-            button{
-                width: 7rem;
-            }
-        }
+/* Móviles pequeños (Celulares) */
+@media (max-width: 479px) {
+.ceremoniaDetail{
+    width: 40vh !important;
+    .detail{
+        flex-direction: column;
     }
-  }
+}
+}
+  
+  /* Móviles grandes (Celulares) */
+  @media (min-width: 480px) and (max-width: 767px) {
+    .ceremoniaDetail{
+        width: 60vh !important;
+    }
+  }  

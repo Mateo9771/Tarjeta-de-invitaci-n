@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=La+Belle+Aurore&family=Londrina+Sketch&family=Monsieur+La+Doulaise&display=swap');
+
+.backgroundContainer{
+    background-image: url(../../assets/backinvitacion.jpg);
+    margin: 0;
+    padding: 0;
+    background-position: center; 
+    background-size: cover;        /* Hace que la imagen ocupe todo el fondo */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    background-attachment: fixed;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.frase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10vh;
+    font-family: "Italianno", cursive;
+    font-style: normal;
+    font-size: 35px;
+}

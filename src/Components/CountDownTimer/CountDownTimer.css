@@ -1,6 +1,5 @@
 .countdown-timer {
     top:-11rem;
-    position: absolute;
     backdrop-filter: blur(5px);
     height: 7rem;
     width: 20rem;
@@ -37,10 +36,10 @@
  
 @media only screen and (max-width: 575px){
     .countdown-timer{
-        width: 14rem !important;
-        height: 4rem !important;
+        width: 15rem !important;
+        height: 5rem !important;
     }
     .time-box{
-        width: 2.5rem !important;
+        width: 3.2rem !important;
     }
 }

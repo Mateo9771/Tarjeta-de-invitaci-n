@@ -2,14 +2,15 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #9c9090;
-    bottom: 0;
     left: 0;
     width: 100%;
     align-items: center;
-    z-index: 1000;
     flex-wrap: wrap;
-    color: #fff;
-    background-color: #3d2c3f;
+    color: #000291;
+    background-color: #3d25aa52;
+    padding: 15px 0;
+    flex: 1;
+    backdrop-filter: blur(10px);
     .BlockFooter{
         padding: 2rem;
         width: 25rem;
@@ -20,7 +21,7 @@
         justify-content: center;
         height: 10rem;
         a{
-            color: #fff;
+            color: #4b1ec5;
         }   
     }
 }
