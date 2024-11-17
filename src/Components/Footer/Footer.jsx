@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
-    <div className='Footer'>
+    <div className='Footer col-12'>
        <div className='BlockFooter'>
         <Link className='Link' to='Inicio' smooth={true} duration={500}>Inicio</Link>
         <Link className='Link' to='About' smooth={true} duration={500}>N&M</Link>
