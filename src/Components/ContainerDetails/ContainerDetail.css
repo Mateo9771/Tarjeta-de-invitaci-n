@@ -35,12 +35,11 @@
             background-color: #8899e4;
         }
     }
-   
     .ceremoniaDetail{
-        width: 100vh;
         border-radius: 1rem;
         box-shadow: 3px 5px 7px #878196;
         display: flex;
+        width: 100vh;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -48,15 +47,50 @@
         gap: 2rem;
         margin-bottom: 2rem;
         padding: 2rem;
-        color: #1b3291;
         font-family: "Italianno", cursive;
         font-style: normal;
         backdrop-filter: blur(1px);
+        .ceremoniaDetailImage1{
+            width:50vh;
+            height: 5rem;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(../../assets/zapatos.svg);
+        }
+        .ceremoniaDetailImage2{
+            width:50vh;
+            height: 5rem;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(../../assets/torta.svg);
+        }
         .detail{
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 1rem;
+        }
+    }
+    .ceremoniaDetailOutfit{
+        display: flex;
+        height: 20rem;
+        width: 100vh;
+        margin-bottom: 10vh;
+        .detailOutfitImage{
+            width: 50vh;
+            background-repeat: no-repeat;
+            background-image: url(../../assets/vestido.svg);
+            background-position: center;
+            background-size: 20rem;
+        }
+        .detailOutfit{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: "Italianno", cursive;
+            font-style: normal;
+            font-size: 40px;
         }
     }
 }
@@ -68,6 +102,15 @@
     .detail{
         flex-direction: column;
     }
+}
+.ceremoniaDetailOutfit{
+    width: 40vh !important;  
+}
+.ceremoniaDetailImage1{
+    width: 30vh !important;
+}
+.ceremoniaDetailImage2{
+    width: 30vh !important;
 }
 }
   

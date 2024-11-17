@@ -5,20 +5,17 @@
         margin-bottom: 15vh;
         .DecorationAlianza{
         border-radius: 50%;
-        box-shadow: 1px 3px 3px 1px black;   
+        box-shadow: 1px 3px 3px 1px rgb(78, 61, 76);   
         width: 15rem;
         height: 10rem;
-        background-image: url(../../assets/timedecoration.svg)
+        background-image: url(../../assets/timedecoration.svg);
+        background-size: 20rem;
+        background-position: center;
     }
 }
 
 @media only screen and (max-width: 575px){
-   .alianzas{
 
-   }
-   .DecorationAlianza{
-        
-   }
 
 }
 

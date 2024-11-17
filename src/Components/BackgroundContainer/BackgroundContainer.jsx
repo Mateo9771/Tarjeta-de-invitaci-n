@@ -4,6 +4,8 @@ import FrontPage from '../FrontPage/FrontPage'
 import ContainerDetail from '../ContainerDetails/ContainerDetails'
 import CountdownTimer from '../CountDownTimer/CountDownTimer'
 import Alianza from '../TipeCap/Alianza'
+import PlayButton from '../PlayButton/PlayButton'
+import song from '../../assets/Arruinarse.mp3'
 
 const BackgroundContainer = () => {
   
@@ -11,7 +13,7 @@ const BackgroundContainer = () => {
   
   return (
     <div className='backgroundContainer col-12'>
-          
+          <PlayButton audioSrc={song}/>
       <FrontPage/>
       <div className='count col-12'>
       <CountdownTimer targetDate={targetDate}/>

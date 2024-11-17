@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=La+Belle+Aurore&family=Londrina+Sketch&family=Monsieur+La+Doulaise&display=swap');
+
 .countdown-timer {
     top:-11rem;
     backdrop-filter: blur(5px);
@@ -5,10 +7,9 @@
     width: 20rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: 'Arial', sans-serif;
-    box-shadow: 2px 5px 5px #1d1c1c;
-    color: #252323;
+    font-family: "Italianno", cursive;
+    font-style: normal;
+    gap: 1rem;
     .time-box {
         display: flex;
         justify-content: center;
@@ -19,17 +20,17 @@
         margin: 0.2rem;
         padding: 1rem;
         text-align: center;
-        border-right: 1px solid #383131;
-        border-left: 1px solid #383131;
       }
       .time {
         display: block;
-        font-size: 1.5rem;
+        font-size: 3rem;
         font-weight: bold;
       }
       
       .label {
-        font-size: 0.5rem;
+        display: flex;
+        gap: 1rem;
+        font-size: 1.5rem;
       }
   }
   

@@ -10,6 +10,9 @@ const ContainerDetails = () => {
     <Book/>
 
         <div className='ceremoniaDetail' id='Ceremonia'>
+            <div className='ceremoniaDetailImage1'>
+
+            </div>
             <h1>Ceremonia</h1>
         <div className='detail'>
             <h1>Dia:</h1>
@@ -34,6 +37,9 @@ const ContainerDetails = () => {
         </div>
 
         <div className='ceremoniaDetail' id='Fiesta'>
+            <div className='ceremoniaDetailImage2'>
+
+            </div>
         <h1>Fiesta</h1>
         <div className='detail'>
             <h1>Dia:</h1>
@@ -52,6 +58,16 @@ const ContainerDetails = () => {
         <button>Como llegar</button>
         <button>Agendar</button>
         </div>
+        </div>
+        </div>
+        <div className='ceremoniaDetailOutfit' id='vestimenta'>
+
+        <div className='detailOutfitImage'>
+        </div>
+        <div className='detailOutfit'>
+        <p>
+            Solo la novia va de vestido blanco
+        </p>
         </div>
         </div>
     </div>
