@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     background-position: center; 
-    background-size: cover;        /* Hace que la imagen ocupe todo el fondo */
-    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    background-size: cover;        
+    background-repeat: no-repeat;  
     background-attachment: fixed;
 }
 .count{
@@ -24,4 +24,10 @@
     font-family: "Italianno", cursive;
     font-style: normal;
     font-size: 35px;
+}
+
+@media (max-width: 768px) {
+   /* .backgroundContainer {
+      background-attachment: scroll; /* Evita problemas en móviles 
+    } */
 }

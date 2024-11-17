@@ -6,6 +6,7 @@ import CountdownTimer from '../CountDownTimer/CountDownTimer'
 import Alianza from '../TipeCap/Alianza'
 import PlayButton from '../PlayButton/PlayButton'
 import song from '../../assets/Arruinarse.mp3'
+import Footer from '../../Components/Footer/Footer'
 
 const BackgroundContainer = () => {
   
@@ -25,6 +26,7 @@ const BackgroundContainer = () => {
         </p>
       </div>
       <ContainerDetail/>
+      <Footer/>
     </div>
   )
 }
