@@ -1,9 +1,24 @@
 import React from 'react'
 import './ContainerDetail.css'
 import Book from './../Book/Book'
+import { getEventDetails } from '../../Date'
+import { useEffect, useState } from 'react'
 
 const ContainerDetails = () => {
+    const [eventDetails, setEventDetails] = useState(null);
 
+  useEffect(() => {
+    getEventDetails().then((data) => {
+      setEventDetails(data);
+    });
+  }, []);
+
+  if (!eventDetails) {
+    return <div>Cargando detalles...</div>;
+  }
+
+  const { ceremonia, fiesta } = eventDetails;
+    
   return (
     <div className='containerDetails col-12'>
         
@@ -13,26 +28,16 @@ const ContainerDetails = () => {
             <div className='ceremoniaDetailImage1'>
 
             </div>
-            <h1>Ceremonia</h1>
+            <h1>Conferencia</h1>
         <div className='detail'>
             <h1>Dia:</h1>
-            <h2>Sabado 15 de Febrero - 20H</h2>
+            <h2>{ceremonia.fecha} - {ceremonia.hora}</h2>
 
         </div>
 
         <div className='detail'>
         <h1>Dirección:</h1>
-        <h2>Calle Falsa 123</h2>
-        </div>
-
-        <div className='buttons'>
-            <div className='button1'>
-        <button>Confirmar Asistencia</button>
-            </div>
-            <div className='button2'>
-        <button>Como llegar</button>
-        <button>Agendar</button>
-        </div>
+        <h2>{ceremonia.direccion}</h2>
         </div>
         </div>
 
@@ -43,32 +48,32 @@ const ContainerDetails = () => {
         <h1>Fiesta</h1>
         <div className='detail'>
             <h1>Dia:</h1>
-            <h2>Sabado 15 de Febrero - 21H</h2>
+            <h2>{fiesta.fecha} - {fiesta.hora}</h2>
            
         </div>
+
         <div className='detail'>
         <h1>Dirección:</h1>
-        <h2>Calle Falsa 123</h2>
+        <h2>{fiesta.direccion}</h2>
         </div>
-        <div className='buttons'>
-        <div className='button1'>
-        <button>Confirmar Asistencia</button>
-            </div>
-            <div className='button2'>
-        <button>Como llegar</button>
-        <button>Agendar</button>
+        <div  className='buttons'>
+          <button className='button1'><a href="https://docs.google.com/forms/d/e/1FAIpQLScyy8P96GxVcz3hY1XzcwQDtKzjv5B343NSMSf89cAydW9NGA/viewform?usp=sf_link" target='_blank'>Confirmar asistencia</a></button>
+          <button className='button1'><a href="https://maps.app.goo.gl/jQsWojByyfa2WcAaA" target='_blank'>Como llegar</a></button>
         </div>
         </div>
-        </div>
-        <div className='ceremoniaDetailOutfit' id='vestimenta'>
 
+        <div className='ceremoniaDetailOutfit' id='vestimenta'>
+    
         <div className='detailOutfitImage'>
-        </div>
+        </div>  
         <div className='detailOutfit'>
         <p>
-            Solo la novia va de vestido blanco
+        El blanco es exclusivo de la novia, pero si realmente quieren competir con ella... ¡mucha suerte!
         </p>
+        
         </div>
+
+       
         </div>
     </div>
   )
