@@ -49,17 +49,18 @@
         backdrop-filter: blur(1px);
         .ceremoniaDetailImage1{
             width:50vh;
-            height: 8rem;
+            height: 10rem;
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;
+            background-size: contain;
             background-image: url(../../assets/alianzas.svg);
         }
         .ceremoniaDetailImage2{
             width:50vh;
-            height: 8rem;
+            height: 6rem;
             background-repeat: no-repeat;
             background-position: center;
+            background-size: contain;
             background-image: url(../../assets/torta.svg);
         }
         .detail{
