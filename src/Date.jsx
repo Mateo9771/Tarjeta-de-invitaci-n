@@ -1,16 +1,16 @@
 const events = {
     ceremonia: {
-      fecha: "Sabado 25 de Marzo del 2025",
+      fecha: "Sabado 22 de Marzo del 2025",
       direccion: "C. 604 400, B1914 Villa Elvira, Provincia de Buenos Aires",
       hora: "18:00",
-      dataTime: "2025-03-25T18:00:00",
+      dataTime: "2025-03-22T18:00:00",
       localizacion: "",
     },
     fiesta: {
-      fecha: "Sabado 25 de Marzo del 2025",
+      fecha: "Sabado 22 de Marzo del 2025",
       direccion: "C. 604 400, B1914 Villa Elvira, Provincia de Buenos Aires",
-      hora: "19:00",
-      dataTime: "2025-03-25T18:00:00",
+      hora: "20:00",
+      dataTime: "2025-03-22T18:00:00",
       localizacion: "",
     },
   };

@@ -65,10 +65,10 @@ const ContainerDetails = () => {
         <div className='ceremoniaDetailOutfit' id='vestimenta'>
     
         <div className='detailOutfitImage'>
-        </div>  
+        </div> 
         <div className='detailOutfit'>
         <p>
-        El blanco es exclusivo de la novia, pero si realmente quieren competir con ella... ¡mucha suerte!
+        "El evento será un encuentro especial con un código de vestimenta formal y elegante para celebrar este día único."
         </p>
         
         </div>

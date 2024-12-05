@@ -15,7 +15,6 @@ const Book = () => {
 
   const [index, setIndex] = useState(0);
 
-  // Función para pre-cargar imágenes
   const preLoadImages = (images) => {
     images.forEach((src) => {
       const img = new Image();
@@ -23,12 +22,11 @@ const Book = () => {
     });
   };
 
-  // Pre-cargar imágenes al inicio
+ 
   useEffect(() => {
     preLoadImages(Novios);
-  }, []); // Dependencias vacías porque Novios no cambiará
+  }, []); 
 
-  // Usamos setTimeout en lugar de setInterval para optimizar la animación
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIndex((prevIndex) => (prevIndex + 1) % Novios.length);
@@ -36,8 +34,7 @@ const Book = () => {
     return () => clearTimeout(timeout);
   }, [index, Novios.length]);
 
-  // Optimizar el evento de scroll para evitar que afecte al rendimiento
-  useEffect(() => {
+   useEffect(() => {
     const handleScroll = throttle(() => {
       console.log('Scrolled');
     }, 200);
@@ -50,7 +47,7 @@ const Book = () => {
   }, []);
 
   return (
-    <div className='book-container'>
+    <div className='book-container' id='Fotografias'>
       <AnimatePresence mode='wait'>
         <motion.img
           key={Novios[index]}

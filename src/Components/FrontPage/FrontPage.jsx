@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './FrontPage.css'
 import ScrollIndicator from '../ScrollIndicador/ScrollIndicador'
+import { getEventDetails } from '../../Date'
 
 const FrontPage = () => {
+  const [eventDetails, setEventDetails] = useState(null);
+
+  useEffect(() => {
+    getEventDetails().then((data) => {
+      setEventDetails(data);
+    });
+  }, []);
+
+  if (!eventDetails) {
+    return <div>Cargando detalles...</div>;
+  }
+
+  const {ceremonia} = eventDetails;
+
   return (
     <div className='container col-12'>
 

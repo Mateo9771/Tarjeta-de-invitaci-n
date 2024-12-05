@@ -10,7 +10,7 @@ import Footer from '../../Components/Footer/Footer'
 
 const BackgroundContainer = () => {
   
-  const targetDate = '2025-03-22T00:00:00'; 
+  const targetDate = '2025-03-22T18:00:00'; 
   
   return (
     <div className='backgroundContainer col-12'>
